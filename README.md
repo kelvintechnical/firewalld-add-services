@@ -1,11 +1,11 @@
 # Lab: Adding Services to Zones — Named Opens with `--permanent`
 
-**Series:** linux-ops-mastery — RHCSA Firewall
-**Subjects covered:** `firewall-cmd --add-service`, `--remove-service`, `--permanent`, `firewall-cmd --reload`, runtime vs permanent drift checks, verifying with `--list-services`, zone-scoped additions
-**Career arcs covered:** RHCSA (classic “enable http/https” tasks), RHCE (`ansible.posix.firewalld`), SRE (change windows + documented rollback), DevOps (infra-as-code parity with runtime), AI/MLOps (exposing FastAPI/TensorBoard by service name)
-**Prerequisite:** Zone vocabulary (Lab **firewalld-zones**) and running `firewalld`
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 baseline services · 2–3 runtime add/remove · 4 permanent + reload · 5 edge: service not found · 6 capstone + cleanup
+- **Series:** linux-ops-mastery — RHCSA Firewall
+- **Subjects covered:** `firewall-cmd --add-service`, `--remove-service`, `--permanent`, `firewall-cmd --reload`, runtime vs permanent drift checks, verifying with `--list-services`, zone-scoped additions
+- **Career arcs covered:** RHCSA (classic “enable http/https” tasks), RHCE (`ansible.posix.firewalld`), SRE (change windows + documented rollback), DevOps (infra-as-code parity with runtime), AI/MLOps (exposing FastAPI/TensorBoard by service name)
+- **Prerequisite:** Zone vocabulary (Lab **firewalld-zones**) and running `firewalld`
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 baseline services · 2–3 runtime add/remove · 4 permanent + reload · 5 edge: service not found · 6 capstone + cleanup
 
 ---
 
